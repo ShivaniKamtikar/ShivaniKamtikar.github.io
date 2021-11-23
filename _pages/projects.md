@@ -1,11 +1,11 @@
 ---
-layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-display_categories: [work, fun]
-horizontal: false
+layout: #page
+title: 
+permalink: #/projects/
+description: #A growing collection of your cool projects.
+nav: 
+display_categories: #[work, fun]
+horizontal: #false
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
