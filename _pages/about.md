@@ -24,7 +24,7 @@ I am currently serving as the treasurer for the graduate [Society of Women Engin
 
   
 
-## Research
+### Research
 
 My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on visual servoing for Soft Continuum Arms (SCA) in structured and unstructured environments. 
 

@@ -7,4 +7,4 @@ permalink: /cv/
 
 ---
 
-You can download my CV [here](./assets/pdf/CV_Shivani_Kamtikar.pdf).
+You can download my CV [here](https://shivanikamtikar.github.io/assets/pdf/CV_Shivani_Kamtikar.pdf).
