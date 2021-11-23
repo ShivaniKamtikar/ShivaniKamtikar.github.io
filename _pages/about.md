@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Distributed Autonomous Systems Laboratory (DASLab)</p>
-    <p>Department of Computer Science</p>
+    <p>Distributed Autonomous Systems Laboratory (DASLab),</p>
+    <p>Department of Computer Science,</p>
     <p>Champaign, Illinois-61820</p>
 
 news:   # includes a list of news items
@@ -22,9 +22,9 @@ I am a second-year Computer Science masters student at the [University of Illino
 
 I am currently serving as the treasurer for the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (world's largest avocate for women in STEM) at UIUC.  
 
+  
 
-
-##Research
+## Research
 
 My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on visual servoing for Soft Continuum Arms (SCA) in structured and unstructured environments. 
 
