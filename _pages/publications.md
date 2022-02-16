@@ -1,14 +1,11 @@
 ---
 layout: page
-title: List of Publications
+title: Publications
 permalink: /publications/
 
 nav: true
   # includes social icons at the bottom of the page
 ---
-
-
-
 
 
 1) Kamtikar, S., Marri, S., Walt, B., Uppalapati, N. K., Krishnan, G., & Chowdhary, G. (2022). Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment. arXiv preprint arXiv:2202.05200. 

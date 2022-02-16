@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a second-year Computer Science masters student at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working under my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). I graduated with a Bachelor's degree in Information Technology from [Pune University](http://www.unipune.ac.in) in India in 2020. 
+I am a second-year masters student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working under my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). I graduated with a Bachelor's degree in Information Technology from [Pune University](http://www.unipune.ac.in) in India in 2020. I will be starting my Ph.D. in CS at UIUC in Fall 2022.
 
 I am currently serving as the treasurer for the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (world's largest avocate for women in STEM) at UIUC.  
 
