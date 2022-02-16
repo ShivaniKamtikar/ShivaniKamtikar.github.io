@@ -1,13 +1,13 @@
 ---
 layout: page
-title: publications
+title: List of Publications
 permalink: /publications/
 
 nav: true
   # includes social icons at the bottom of the page
 ---
 
-### List of Publications:
+
 
 
 
