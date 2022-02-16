@@ -18,9 +18,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a second-year masters student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working under my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). I graduated with a Bachelor's degree in Information Technology from [Pune University](http://www.unipune.ac.in) in India in 2020. I will be starting my Ph.D. in CS at UIUC in Fall 2022.
+I am a second-year masters student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working under my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). I graduated with a Bachelor's degree from [Pune University](http://www.unipune.ac.in) in India in 2020. I will be starting my Ph.D. in CS at UIUC in Fall 2022.
 
-I am currently serving as the treasurer for the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (world's largest avocate for women in STEM) at UIUC.  
+I am the acting treasurer of the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (world's largest avocate for women in STEM) at UIUC. I am a strong advocate for Women in STEM and enjoy working towards this cause.  
 
   
 
@@ -29,7 +29,7 @@ I am currently serving as the treasurer for the graduate [Society of Women Engin
 My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on visual servoing for Soft Continuum Arms (SCA) in structured and unstructured environments. 
 
 
-**Please contact me if you want to discuss any interesting research idea, or collaborate on something!**
+**Contact me if you want to discuss any interesting research idea, or collaborate on something!**
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
