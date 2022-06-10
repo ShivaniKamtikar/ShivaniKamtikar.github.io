@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: >
     <p>Distributed Autonomous Systems Laboratory (DASLab),</p>
-    <p>Department of Computer Science,</p>
+    <p>Ph.D., Computer Science,</p>
     <p>Champaign, Illinois-61820</p>
 
 news:   # includes a list of news items
@@ -18,15 +18,15 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a second-year masters student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working under my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). I graduated with a Bachelor's degree from [Pune University](http://www.unipune.ac.in) in India in 2020. I will be starting my Ph.D. in CS at UIUC in Fall 2022.
+I am a first-year Ph.D. student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working with my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). I graduated with a MSCS degree from UIUC in 2022. Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). 
 
-I am the acting treasurer of the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (world's largest avocate for women in STEM) at UIUC. I am a strong advocate for Women in STEM and enjoy working towards this cause.  
+I am the acting treasurer of the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (GradSWE) at UIUC. I am a strong advocate for women in STEM and enjoy working towards this cause.  
 
-  
+Alongside my interest in research, my hobbies include painting, travelling, hiking, and reading.   
 
 ### Research
 
-My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on visual servoing for Soft Continuum Arms (SCA) in structured and unstructured environments. 
+My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on the manipulation and control of Soft Continuum Arms using computer vision for use in autonomous harvesting.
 
 
 **Contact me if you want to discuss any interesting research idea, or collaborate on something!**
