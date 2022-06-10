@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a first-year Ph.D. student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working with my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). I graduated with a MSCS degree from UIUC in 2022. Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked with [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). 
+I am a first-year Ph.D. student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working with my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). I graduated with a MSCS degree from UIUC in 2022. Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked under the guidance of [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). 
 
 I am the acting treasurer of the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (GradSWE) at UIUC. I am a strong advocate for women in STEM and enjoy working towards this cause.  
 
