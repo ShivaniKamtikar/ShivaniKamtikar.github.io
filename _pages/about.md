@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-I am a first-year Ph.D. student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) working with my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). I graduated with a MSCS degree from UIUC in 2022. Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu) where I worked under the guidance of [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). 
+I am a first-year Ph.D. student in the [Department of Computer Science](https://cs.illinois.edu) at the [University of Illinois at Urbana-Champaign (UIUC)](https://illinois.edu). I am a Research Assistant at [Distributed Autonomous Systems Laboratory (DASLab)](http://daslab.illinois.edu) where I work with my advisor, [Prof. Girish Chowdhary](http://daslab.illinois.edu/index.html#girish). I graduated with a MSCS degree from UIUC in 2022. My master's thesis was on "Visual Servoing for Pose Control of Soft Continuum Arms." Previously, I was a research assistant at the [University of Notre Dame](https://www.nd.edu), advised by [Prof. Zhiyong Zhang](https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/). 
 
 I am the acting treasurer of the graduate [Society of Women Engineers](https://www.societyofwomenengineers.illinois.edu/about-gradswe) (GradSWE) at UIUC. I am a strong advocate for women in STEM and enjoy working towards this cause.  
 
@@ -26,7 +26,7 @@ Alongside my interest in research, my hobbies include painting, travelling, hiki
 
 ### Research
 
-My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where navigation and manipulator-control is still an open challenge. My ongoing research focuses on the manipulation and control of Soft Continuum Arms using computer vision for use in autonomous harvesting.
+My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where manipulator-control is still an open challenge. My ongoing research focuses on the manipulation and control of Soft Continuum Arms using Computer Vision for use in autonomous harvesting.
 
 
 **Contact me if you want to discuss any interesting research idea, or collaborate on something!**
