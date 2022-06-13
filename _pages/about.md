@@ -28,6 +28,7 @@ Alongside my interest in research, my hobbies include painting, travelling, hiki
 
 My primary research interests lie in Learning-Based Robotics, especially, in Agricultural Robotics where manipulator-control is still an open challenge. My ongoing research focuses on the manipulation and control of Soft Continuum Arms using Computer Vision for use in autonomous harvesting.
 
+
 **Contact me if you want to discuss any interesting research idea, or collaborate on something!**
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
