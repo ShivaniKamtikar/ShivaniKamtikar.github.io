@@ -6,7 +6,7 @@ description: skk7@illinois.edu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpeg
   address: >
     <p>Distributed Autonomous Systems Laboratory (DASLab),</p>
     <p>Ph.D., Computer Science,</p>
