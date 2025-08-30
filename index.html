@@ -67,6 +67,55 @@
             </td>
             </tr>
 
+                <!-- Paper Y: ICRA 2025 -->
+    <tr onmouseout="icra2025_stop()" onmouseover="icra2025_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+      <div class="one" style="position:relative; width:160px; height:auto;">
+      <!-- Static thumbnail -->
+      <img id="icra2025_thumb" src="images/icra.png" width="160" alt="ICRA 2025 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
+      
+      <!-- Hover video/gif overlay -->
+      <div class="two" id="icra2025_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
+      <video width="100%" height="100%" muted autoplay loop playsinline poster="images/icra.png">
+      <source src="images/icra.png" type="video/mp4">
+      <img src="images/icra.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
+      </video>
+      </div>
+      </div>
+      <script type="text/javascript">
+      function icra2025_start(){
+      var v = document.getElementById('icra2025_image');
+      var t = document.getElementById('icra2025_thumb');
+      if(v){ v.style.opacity = '1'; }
+      if(t){ t.style.display = 'none'; }
+      }
+      function icra2025_stop(){
+      var v = document.getElementById('icra2025_image');
+      var t = document.getElementById('icra2025_thumb');
+      if(v){ v.style.opacity = '0'; }
+      if(t){ t.style.display = 'block'; }
+      }
+      icra2025_stop();
+      </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="https://arxiv.org/pdf/2501.19395" target="_blank">
+      <span class="papertitle">ICRA 2025 Paper</span>
+      </a>
+      <br>
+      Kendall Koe, Poojan Kalpeshbhai Shah, Benjamin Walt, Jordan Westphal, Samhita Marri, <strong>Shivani Kamtikar</strong>, James Seungbum Nam, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
+      <br>
+      <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
+      <br>
+      <a href="https://arxiv.org/pdf/2501.19395" target="_blank">paper</a>
+      <p></p>
+      <p>
+      Upcoming work presented at ICRA 2025 on precision harvesting in cluttered environments.
+      </p>
+      </td>
+      </tr>
+  
+
             <!-- Paper X: JMR 2024 -->
       <tr onmouseout="jmr2024_stop()" onmouseover="jmr2024_start()">
         <td style="padding:16px;width:20%;vertical-align:middle">
