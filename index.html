@@ -57,170 +57,210 @@
             </tr>
           </tbody></table>
 
-          <tr onmouseout="vs2022_stop()" onmouseover="vs2022_start()">
-            <a href="https://ieeexplore.ieee.org/document/9726901" target="_blank">paper</a> /
-            <a href="https://www.samhitamarri.com/vs.github.io/" target="_blank">project page</a>
-            <p></p>
-            <p>
-            A deep learning-based visual servoing framework enabling robust 3D positioning of soft continuum arms, achieving sub-2 cm translation error and sub-0.25 rad rotation error in structured settings.
-            </p>
-            </td>
+          <!-- Publications Section -->
+        <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+          <tbody>
+
+            <!-- Paper 1: RA-L + RoboSoft 2022 -->
+            <tr onmouseout="vs2022_stop()" onmouseover="vs2022_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one" style="position:relative; width:160px; height:auto;">
+                  <!-- Static thumbnail -->
+                  <img id="vs2022_thumb" src="images/ral_robo.png" width="160" alt="Visual Servoing 2022 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
+
+                  <!-- Hover video perfectly overlaid -->
+                  <div class="two" id="vs2022_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
+                    <video width="100%" height="100%" muted autoplay loop playsinline>
+                      <source src="images/finak_nt.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  function vs2022_start(){
+                    var v = document.getElementById('vs2022_image');
+                    var t = document.getElementById('vs2022_thumb');
+                    if(v){ v.style.opacity = '1'; }
+                    if(t){ t.style.display = 'none'; }
+                  }
+                  function vs2022_stop(){
+                    var v = document.getElementById('vs2022_image');
+                    var t = document.getElementById('vs2022_thumb');
+                    if(v){ v.style.opacity = '0'; }
+                    if(t){ t.style.display = 'block'; }
+                  }
+                  vs2022_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://ieeexplore.ieee.org/document/9726901" target="_blank">
+                  <span class="papertitle">Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment</span>
+                </a>
+                <br>
+                <strong>Shivani K. Kamtikar</strong>, S. Marri, B. T. Walt, N. K. Uppalapati, G. Krishnan, G. Chowdhary  
+                <br>
+                <em>IEEE RA-L</em> & <em>IEEE RoboSoft</em>, 2022  
+                <br>
+                <a href="https://ieeexplore.ieee.org/document/9726901" target="_blank">paper</a> /
+                <a href="https://www.samhitamarri.com/vs.github.io/" target="_blank">project page</a>
+                <p></p>
+                <p>
+                  A deep learning-based visual servoing framework enabling robust 3D positioning of soft continuum arms, achieving sub-2 cm translation error and sub-0.25 rad rotation error in structured settings.
+                </p>
+              </td>
             </tr>
 
-                <!-- Paper Y: ICRA 2025 -->
-    <tr onmouseout="icra2025_stop()" onmouseover="icra2025_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-      <div class="one" style="position:relative; width:160px; height:auto;">
-      <!-- Static thumbnail -->
-      <img id="icra2025_thumb" src="images/icra.png" width="160" alt="ICRA 2025 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
-      
-      <!-- Hover video/gif overlay -->
-      <div class="two" id="icra2025_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
-      <video width="100%" height="100%" muted autoplay loop playsinline poster="images/icra.png">
-      <source src="images/icra.png" type="video/mp4">
-      <img src="images/icra.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
-      </video>
-      </div>
-      </div>
-      <script type="text/javascript">
-      function icra2025_start(){
-      var v = document.getElementById('icra2025_image');
-      var t = document.getElementById('icra2025_thumb');
-      if(v){ v.style.opacity = '1'; }
-      if(t){ t.style.display = 'none'; }
-      }
-      function icra2025_stop(){
-      var v = document.getElementById('icra2025_image');
-      var t = document.getElementById('icra2025_thumb');
-      if(v){ v.style.opacity = '0'; }
-      if(t){ t.style.display = 'block'; }
-      }
-      icra2025_stop();
-      </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-      <a href="https://arxiv.org/pdf/2501.19395" target="_blank">
-      <span class="papertitle">ICRA 2025 Paper</span>
-      </a>
-      <br>
-      Kendall Koe, Poojan Kalpeshbhai Shah, Benjamin Walt, Jordan Westphal, Samhita Marri, <strong>Shivani Kamtikar</strong>, James Seungbum Nam, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
-      <br>
-      <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
-      <br>
-      <a href="https://arxiv.org/pdf/2501.19395" target="_blank">paper</a>
-      <p></p>
-      <p>
-      Upcoming work presented at ICRA 2025 on precision harvesting in cluttered environments.
-      </p>
-      </td>
-      </tr>
-  
+            <!-- Paper Y: ICRA 2025 -->
+            <tr onmouseout="icra2025_stop()" onmouseover="icra2025_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one" style="position:relative; width:160px; height:auto;">
+                  <!-- Static thumbnail -->
+                  <img id="icra2025_thumb" src="images/icra.png" width="160" alt="ICRA 2025 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
+
+                  <!-- Hover video/gif overlay -->
+                  <div class="two" id="icra2025_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
+                    <video width="100%" height="100%" muted autoplay loop playsinline poster="images/icra.png">
+                      <source src="images/icra.png" type="video/mp4">
+                      <img src="images/icra.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
+                    </video>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  function icra2025_start(){
+                    var v = document.getElementById('icra2025_image');
+                    var t = document.getElementById('icra2025_thumb');
+                    if(v){ v.style.opacity = '1'; }
+                    if(t){ t.style.display = 'none'; }
+                  }
+                  function icra2025_stop(){
+                    var v = document.getElementById('icra2025_image');
+                    var t = document.getElementById('icra2025_thumb');
+                    if(v){ v.style.opacity = '0'; }
+                    if(t){ t.style.display = 'block'; }
+                  }
+                  icra2025_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/pdf/2501.19395" target="_blank">
+                  <span class="papertitle">ICRA 2025 Paper</span>
+                </a>
+                <br>
+                Kendall Koe, Poojan Kalpeshbhai Shah, Benjamin Walt, Jordan Westphal, Samhita Marri, <strong>Shivani Kamtikar</strong>, James Seungbum Nam, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                <br>
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025  
+                <br>
+                <a href="https://arxiv.org/pdf/2501.19395" target="_blank">paper</a>
+                <p></p>
+                <p>
+                  Upcoming work presented at ICRA 2025 on precision harvesting in cluttered environments.
+                </p>
+              </td>
+            </tr>
 
             <!-- Paper X: JMR 2024 -->
-      <tr onmouseout="jmr2024_stop()" onmouseover="jmr2024_start()">
-        <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one" style="position:relative; width:160px; height:auto;">
-        <!-- Static thumbnail -->
-        <img id="jmr2024_thumb" src="images/jmr.png" width="160" alt="JMR 2024 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
-        
-        <!-- Hover video or gif overlay -->
-        <div class="two" id="jmr2024_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
-        <video width="100%" height="100%" muted autoplay loop playsinline poster="images/jmr.png">
-        <source src="images/jmr.png" type="video/mp4">
-        <img src="images/jmr.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
-        </video>
-        </div>
-        </div>
-        <script type="text/javascript">
-        function jmr2024_start(){
-        var v = document.getElementById('jmr2024_image');
-        var t = document.getElementById('jmr2024_thumb');
-        if(v){ v.style.opacity = '1'; }
-        if(t){ t.style.display = 'none'; }
-        }
-        function jmr2024_stop(){
-        var v = document.getElementById('jmr2024_image');
-        var t = document.getElementById('jmr2024_thumb');
-        if(v){ v.style.opacity = '0'; }
-        if(t){ t.style.display = 'block'; }
-        }
-        jmr2024_stop();
-        </script>
-        </td>
-        <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://kendallkoe.com/pdfs/JMR-24-1069.pdf" target="_blank">
-        <span class="papertitle">Learning Position and Orientation Control for a Hybrid Rigid-Soft Manipulator</span>
-        </a>
-        <br>
-        Kendall Koe, Samhita Marri, Benjamin Walt, <strong>Shivani Kamtikar</strong>, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
-        <br>
-        <em>Journal of Mechanisms and Robotics (JMR)</em>, 2024
-        <br>
-        <a href="https://kendallkoe.com/pdfs/JMR-24-1069.pdf" target="_blank">paper</a>
-        <p></p>
-        <p>
-        We present a position and orientation controller for a hybrid rigid-soft manipulator arm where the soft arm is extruded from a two degrees-of-freedom rigid link. Our approach involves learning the dynamics of the hybrid arm operating at 4 Hz and leveraging it to generate optimal trajectories that serve as expert data to learn a control policy.
-        </p>
-        </td>
-        </tr>
-  
-            
+            <tr onmouseout="jmr2024_stop()" onmouseover="jmr2024_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one" style="position:relative; width:160px; height:auto;">
+                  <!-- Static thumbnail -->
+                  <img id="jmr2024_thumb" src="images/jmr.png" width="160" alt="JMR 2024 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;">
+
+                  <!-- Hover video or gif overlay -->
+                  <div class="two" id="jmr2024_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
+                    <video width="100%" height="100%" muted autoplay loop playsinline poster="images/jmr.png">
+                      <source src="images/jmr.png" type="video/mp4">
+                      <img src="images/jmr.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
+                    </video>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  function jmr2024_start(){
+                    var v = document.getElementById('jmr2024_image');
+                    var t = document.getElementById('jmr2024_thumb');
+                    if(v){ v.style.opacity = '1'; }
+                    if(t){ t.style.display = 'none'; }
+                  }
+                  function jmr2024_stop(){
+                    var v = document.getElementById('jmr2024_image');
+                    var t = document.getElementById('jmr2024_thumb');
+                    if(v){ v.style.opacity = '0'; }
+                    if(t){ t.style.display = 'block'; }
+                  }
+                  jmr2024_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://kendallkoe.com/pdfs/JMR-24-1069.pdf" target="_blank">
+                  <span class="papertitle">Learning Position and Orientation Control for a Hybrid Rigid-Soft Manipulator</span>
+                </a>
+                <br>
+                Kendall Koe, Samhita Marri, Benjamin Walt, <strong>Shivani Kamtikar</strong>, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                <br>
+                <em>Journal of Mechanisms and Robotics (JMR)</em>, 2024  
+                <br>
+                <a href="https://kendallkoe.com/pdfs/JMR-24-1069.pdf" target="_blank">paper</a>
+                <p></p>
+                <p>
+                  We present a position and orientation controller for a hybrid rigid-soft manipulator arm where the soft arm is extruded from a two degrees-of-freedom rigid link. Our approach involves learning the dynamics of the hybrid arm operating at 4 Hz and leveraging it to generate optimal trajectories that serve as expert data to learn a control policy.
+                </p>
+              </td>
+            </tr>
+
             <!-- Paper 2: CoRL Workshop 2023 -->
             <tr onmouseout="vs2023_stop()" onmouseover="vs2023_start()">
-            <td style="padding:16px;width:20%;vertical-align:middle">
-            <div class="one" style="position:relative; width:160px; height:auto;">
-            <!-- Static image -->
-            <img id="vs2023_thumb" src="images/exp_valens_vs.png" width="160" alt="Before hover image" style="display:block; width:160px; height:auto; object-fit:cover;">
-            
-            <!-- Hover media perfectly overlaid -->
-            <div class="two" id="vs2023_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
-            <!-- Prefer MP4 for broad autoplay support; MOV may not autoplay on some browsers. -->
-            <video width="100%" height="100%" muted autoplay loop playsinline poster="images/exp_valens_vs.png">
-            <source src="images/berry_reach3.mp4" type="video/mp4">
-            <!-- Fallback still image if video can't play -->
-            <img src="images/exp_valens_vs.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
-            </video>
-            </div>
-            </div>
-            <script type="text/javascript">
-            function vs2023_start(){
-            var v = document.getElementById('vs2023_image');
-            var t = document.getElementById('vs2023_thumb');
-            if(v){ v.style.opacity = '1'; }
-            if(t){ t.style.display = 'none'; }
-            }
-            function vs2023_stop(){
-            var v = document.getElementById('vs2023_image');
-            var t = document.getElementById('vs2023_thumb');
-            if(v){ v.style.opacity = '0'; }
-            if(t){ t.style.display = 'block'; }
-            }
-            vs2023_stop();
-            </script>
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-            <a href="https://sites.google.com/view/corl-2023-soft-robots-ws" target="_blank">
-            <span class="papertitle">Visual Servoing for Pose Control of a Hybrid Continuum Manipulator in Unstructured Environments</span>
-            </a>
-            <br>
-            <strong>Shivani K. Kamtikar</strong>, K. Koe, S. Marri, B. Walt, N. K. Uppalapati, G. Krishnan, G. Chowdhary
-            <br>
-            <em>CoRL Workshop on Learning for Soft Robots</em>, 2023
-            <br>
-            <a href="https://sites.google.com/view/corl-2023-soft-robots-ws" target="_blank">workshop page</a>
-            <p></p>
-            <p>
-            Extending visual servoing to hybrid continuum manipulators in cluttered, unstructured scenes, combining vision and modeling for robust pose control.
-            </p>
-            </td>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one" style="position:relative; width:160px; height:auto;">
+                  <!-- Static image -->
+                  <img id="vs2023_thumb" src="images/exp_valens_vs.png" width="160" alt="Before hover image" style="display:block; width:160px; height:auto; object-fit:cover;">
+
+                  <!-- Hover media perfectly overlaid -->
+                  <div class="two" id="vs2023_image" style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; transition:opacity 0.25s ease;">
+                    <!-- Prefer MP4 for broad autoplay support; MOV may not autoplay on some browsers. -->
+                    <video width="100%" height="100%" muted autoplay loop playsinline poster="images/exp_valens_vs.png">
+                      <source src="images/berry_reach3.mp4" type="video/mp4">
+                      <!-- Fallback still image if video can't play -->
+                      <img src="images/exp_valens_vs.png" alt="Hover image" style="width:100%; height:100%; object-fit:cover;">
+                    </video>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  function vs2023_start(){
+                    var v = document.getElementById('vs2023_image');
+                    var t = document.getElementById('vs2023_thumb');
+                    if(v){ v.style.opacity = '1'; }
+                    if(t){ t.style.display = 'none'; }
+                  }
+                  function vs2023_stop(){
+                    var v = document.getElementById('vs2023_image');
+                    var t = document.getElementById('vs2023_thumb');
+                    if(v){ v.style.opacity = '0'; }
+                    if(t){ t.style.display = 'block'; }
+                  }
+                  vs2023_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://sites.google.com/view/corl-2023-soft-robots-ws" target="_blank">
+                  <span class="papertitle">Visual Servoing for Pose Control of a Hybrid Continuum Manipulator in Unstructured Environments</span>
+                </a>
+                <br>
+                <strong>Shivani K. Kamtikar</strong>, K. Koe, S. Marri, B. Walt, N. K. Uppalapati, G. Krishnan, G. Chowdhary  
+                <br>
+                <em>CoRL Workshop on Learning for Soft Robots</em>, 2023  
+                <br>
+                <a href="https://sites.google.com/view/corl-2023-soft-robots-ws" target="_blank">workshop page</a>
+                <p></p>
+                <p>
+                  Extending visual servoing to hybrid continuum manipulators in cluttered, unstructured scenes, combining vision and modeling for robust pose control.
+                </p>
+              </td>
             </tr>
 
           </tbody>
         </table>
 
-
-          <!-- Footer -->
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:20px auto 40px;"><tbody>
+        
+        <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:20px auto 40px;"><tbody>
             <tr>
               <td style="text-align:center;font-size:12px;color:#777;">
                 Template adapted from <a href="https://jonbarron.info/" target="_blank" rel="noopener noreferrer">Jon Barron</a>.
