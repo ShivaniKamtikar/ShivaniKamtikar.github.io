@@ -9,22 +9,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/robo.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <style>
+      nav.topnav {
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 100;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 0;
+      }
+      nav.topnav .nav-inner {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 36px;
+        padding: 0 16px;
+      }
+      nav.topnav a {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #333;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        padding: 4px 2px;
+        border-bottom: 2px solid transparent;
+        transition: color 0.2s, border-bottom-color 0.2s;
+      }
+      nav.topnav a:hover {
+        color: #1772d0;
+        border-bottom-color: #1772d0;
+      }
+    </style>
   </head>
 
   <body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="topnav">
+      <div class="nav-inner">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="data/Shivani_Kamtikar_CV.pdf" target="_blank">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
     <table style="width:100%;max-width:800px;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
       <tr>
         <td>
           <!-- Header / Intro -->
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+          <table id="about" style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align:center; font-size: 32px; font-weight: 700;">Shivani Kamtikar</p>
-                <p>
-                  I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana‑Champaign (UIUC). I work in the <a href="http://daslab.illinois.edu" target="_blank" rel="noopener noreferrer">Distributed Autonomous Systems Laboratory (DASLab)</a> with <a href="http://daslab.illinois.edu/index.html#girish" target="_blank" rel="noopener noreferrer">Prof. Girish Chowdhary</a>. I was an Applied Scientist co-op at Amazon Robotics where I worked with  <a href="https://coe.northeastern.edu/people/padir-taskin/" target="_blank" rel="noopener noreferrer">Prof. Taskin Padir</a> and <a href="https://scholar.google.com/citations?user=csyOsa8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Dr. Josh Migdal</a>. I received my MSCS from UIUC in 2022. My master's thesis was <a href="https://www.ideals.illinois.edu/items/124962" target="_blank" rel="noopener noreferrer">Visual Servoing for Pose Control of Soft Continuum Arms</a>. Previously, I was a research intern at the University of Notre Dame with <a href="https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/" target="_blank" rel="noopener noreferrer">Prof. Zhiyong Zhang</a>. I got my BTech from Pune University, India.
+                <p style="font-size:16px; line-height:1.6;">
+                  I am a Ph.D. candidate in Computer Science at the University of Illinois Urbana‑Champaign (UIUC). I work in the <a href="http://daslab.illinois.edu" target="_blank" rel="noopener noreferrer">Distributed Autonomous Systems Laboratory (DASLab)</a> with <a href="http://daslab.illinois.edu/index.html#girish" target="_blank" rel="noopener noreferrer">Prof. Girish Chowdhary</a>.
+
+                  I was an Applied Scientist co-op at Amazon Robotics where I worked with  <a href="https://coe.northeastern.edu/people/padir-taskin/" target="_blank" rel="noopener noreferrer">Prof. Taskin Padir</a> and <a href="https://scholar.google.com/citations?user=csyOsa8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Dr. Josh Migdal</a>. I received my MSCS from UIUC in 2022. My master's thesis was <a href="https://www.ideals.illinois.edu/items/124962" target="_blank" rel="noopener noreferrer">Visual Servoing for Pose Control of Soft Continuum Arms</a>. Previously, I was a research intern at the University of Notre Dame with <a href="https://psychology.nd.edu/faculty/zhiyong-johnny-zhang/" target="_blank" rel="noopener noreferrer">Prof. Zhiyong Zhang</a>. I got my BTech from Pune University, India.
                 </p>
-                <p>
-                  I’m the Director for <a href="https://gradswe.grainger.illinois.edu" target="_blank" rel="noopener noreferrer">GradSWE @ UIUC 2025</a>. Outside research, I enjoy hiking, traveling, painting, reading, and growing a small jungle of houseplants!
+                <p style="font-size:16px; line-height:1.6;">
+                  I'm the Director for <a href="https://gradswe.grainger.illinois.edu" target="_blank" rel="noopener noreferrer">GradSWE @ UIUC 2025</a>. Outside research, I enjoy hiking, traveling, painting, reading, and growing a small jungle of houseplants!
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:skk7@illinois.edu">Email</a> &nbsp;/&nbsp;
@@ -33,9 +81,12 @@
                   <a href="https://www.linkedin.com/in/shivani-kamtikar/" target="_blank">LinkedIn</a>
                 </p>
               </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <!-- Replace images/Shivani.jpg with your portrait -->
-                <a href="images/headshot.jpg"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo" src="images/headshot.jpg" class="hoverZoomLink"></a>
+              <td style="padding:2.5%;width:37%;vertical-align:middle;text-align:center;">
+                <a href="images/headshot.jpg">
+                  <div style="width:200px;height:200px;overflow:hidden;border-radius:50%;display:inline-block;">
+                    <img style="width:100%;height:100%;object-fit:cover;object-position:center;" alt="profile photo" src="images/headshot.jpg" class="hoverZoomLink">
+                  </div>
+                </a>
                <!-- Logos section -->
                 <div style="margin-top:15px; display:flex; justify-content:center; gap:7px; flex-wrap:wrap;">
                   <img src="images/UIUC-Logo.jpg" alt="UIUC Logo" style="height:50px;">
@@ -48,7 +99,7 @@
           </tbody></table>
 
           <!-- Research blurb -->
-          <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
+          <table id="research" style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
@@ -60,6 +111,7 @@
           </tbody></table>
 
           <!-- Publications Section -->
+        <h2 id="publications">Publications</h2>
         <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
           <tbody>
 
@@ -74,7 +126,7 @@
                   <span class="papertitle">THREAD: Trajectory Planning for Hybrid Rigid-Soft Manipulators with Environment-Aware Diffusion.</span>
                 </a>
                 <br>
-                <strong>Shivani Kamtikar</strong>, Pranav Asthana, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary 
+                <strong>Shivani Kamtikar</strong>, Pranav Asthana, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
                 <br>
                 <em>Under Review</em>
                 <br>
@@ -120,7 +172,7 @@
                     Unseen Cluttered Environments</span>
                 </a>
                 <br>
-                <strong>Shivani Kamtikar</strong>, Kendall Koe, Justin Wasserman, Ben Walt, Samhita Marri, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                <strong>Shivani Kamtikar</strong>, Kendall Koe, Justin Wasserman, Ben Walt, Samhita Marri, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
                 <br>
                 <em>Soft Robotics, 2026</em>
                 <br>
@@ -128,7 +180,7 @@
                 <a href="https://hyreach.github.io/" target="_blank">project page</a>
                 <p></p>
                 <p>
-                  We present real-time, vision-guided hybrid manipulation frame-work that enables reliable object reaching in cluttered, unstructured, and previously unseen environments. 
+                  We present real-time, vision-guided hybrid manipulation frame-work that enables reliable object reaching in cluttered, unstructured, and previously unseen environments.
                 </p>
               </td>
             </tr>
@@ -148,7 +200,7 @@
                 <br>
                 Chung Hee Kim, <strong>Shivani Kamtikar</strong>, Tye Brady, Taskin Padir, Josh Migdal
                 <br>
-                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026 
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026
                 <br>
                 <a href="https://arxiv.org/abs/2602.23206" target="_blank">paper</a>
                 <p></p>
@@ -171,9 +223,9 @@
                   <span class="papertitle">Learning Position and Orientation Control for a Hybrid Rigid-Soft Manipulator</span>
                 </a>
                 <br>
-                Kendall Koe, Samhita Marri, Benjamin Walt, <strong>Shivani Kamtikar</strong>, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                Kendall Koe, Samhita Marri, Benjamin Walt, <strong>Shivani Kamtikar</strong>, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
                 <br>
-                <em>Journal of Mechanisms and Robotics (JMR)</em>, 2025  
+                <em>Journal of Mechanisms and Robotics (JMR)</em>, 2025
                 <br>
                 <a href="https://kendallkoe.com/pdfs/JMR-24-1069.pdf" target="_blank">paper</a>
                 <p></p>
@@ -219,9 +271,9 @@
                   <span class="papertitle">Precision Harvesting in Cluttered Environments: Integrating End Effector Design with Dual Camera Perception</span>
                 </a>
                 <br>
-                Kendall Koe, Poojan Kalpeshbhai Shah, Benjamin Walt, Jordan Westphal, Samhita Marri, <strong>Shivani Kamtikar</strong>, James Seungbum Nam, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                Kendall Koe, Poojan Kalpeshbhai Shah, Benjamin Walt, Jordan Westphal, Samhita Marri, <strong>Shivani Kamtikar</strong>, James Seungbum Nam, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
                 <br>
-                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025  
+                <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2025
                 <br>
                 <a href="https://arxiv.org/pdf/2501.19395" target="_blank">paper</a>
                 <p></p>
@@ -230,7 +282,7 @@
                 </p>
               </td>
             </tr>
-            
+
             <!-- Paper 1: RA-L + RoboSoft 2022 -->
             <tr onmouseout="vs2022_stop()" onmouseover="vs2022_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
@@ -252,7 +304,7 @@
                   <span class="papertitle">Visual Servoing for Pose Control of Soft Continuum Arm in a Structured Environment</span>
                 </a>
                 <br>
-                <strong>Shivani Kamtikar</strong>, Samhita Marri, Ben Walt, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary  
+                <strong>Shivani Kamtikar</strong>, Samhita Marri, Ben Walt, Naveen Kumar Uppalapati, Girish Krishnan, Girish Chowdhary
                 <br>
                 <em>IEEE RA-L</em> & <em>IEEE RoboSoft</em>, 2022 (oral presentation)
                 <br>
@@ -265,7 +317,7 @@
               </td>
             </tr>
 
-            
+
           </tbody>
         </table>
 
@@ -287,11 +339,11 @@
                 <!-- <img id="vs2022_thumb" src="images/ral_robo.png" width="160" alt="Visual Servoing 2022 thumbnail" style="display:block; width:160px; height:auto; object-fit:cover;"> -->
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                
+
                 <span class="papertitle">System for Translating Indian Sign Language into a Common Language and a Method Therefore</span>
-                
+
                 <br>
-                <strong>Shivani K. Kamtikar</strong>, Esha Gavali, Ayeshatasnim Hannure, Urvi Lendhe, Dr. Anagha Kulkarni  
+                <strong>Shivani K. Kamtikar</strong>, Esha Gavali, Ayeshatasnim Hannure, Urvi Lendhe, Dr. Anagha Kulkarni
                 <br>
                 <em>The Patent Office, Government Of India</em>
                 <br>
@@ -302,7 +354,18 @@
                 </div>
               </div>
 
-        
+        <!-- Contact Section -->
+        <table id="contact" style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:20px auto 10px;"><tbody>
+          <tr>
+            <td style="padding:16px;width:100%;vertical-align:middle">
+              <h2>Contact</h2>
+              <p style="font-size:16px; line-height:1.6;">
+                You can email me at: skk7 {at} illinois {dot} edu
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
         <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:20px auto 40px;"><tbody>
             <tr>
               <td style="text-align:center;font-size:12px;color:#777;">
