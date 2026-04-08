@@ -11,6 +11,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* offset scroll targets so sticky nav doesn't cover them */
+      #about, #research, #publications, #patents, #contact {
+        scroll-margin-top: 56px;
+      }
       nav.topnav {
         position: sticky;
         top: 0;
@@ -53,6 +60,7 @@
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
+        <a href="#patents">Patents</a>
         <a href="data/Shivani_Kamtikar_CV.pdf" target="_blank">CV</a>
         <a href="#contact">Contact</a>
       </div>
@@ -324,7 +332,7 @@
         <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
           <tr>
             <td style="padding:16px;width:100%;vertical-align:middle">
-              <h2>Patents</h2>
+              <h2 id="patents">Patents</h2>
             </td>
           </tr>
         </tbody></table>
